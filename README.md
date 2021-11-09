@@ -15,10 +15,10 @@ To launch run TestRunner.py
 ## Scenarios
 The suite runs two scenarios :
 
-1) Ensure the search box is initialized with no text
+1) Ensure the search box is initialized with no text  
 STEPS : Select the text box -> Get it's text element -> Ensure it is empty
 
-2)Ensure the search functionality works
+2) Ensure the search functionality works  
 STEPS: Select the text box -> Enter a search term -> Press the search button -> Ensure we land on the results page
 
 
