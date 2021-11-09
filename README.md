@@ -3,11 +3,11 @@ This projects is a sample test suite following the POM model. Using Python, Sele
  
 ## Introduction
 The following base components can be indetified 
-- Locators
-- Page Objects
-- Tests
-- WebDriverSetup
-- TestRunner 
+- Locators : All web element locators
+- Page Objects : All site pages
+- Tests : All tests
+- WebDriverSetup : Basic test setup and teardown
+- TestRunner : Test runner and reporter
 
 The suite access the website http://automationpractice.com/index.php and performs two sample tests.
 To launch run TestRunner.py
