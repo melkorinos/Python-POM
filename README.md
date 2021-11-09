@@ -14,6 +14,7 @@ To launch run TestRunner.py
 
 ## Scenarios
 The suite runs two scenarios :
+
 1) Ensure the search box is initialized with no text
 STEPS : Select the text box -> Get it's text element -> Ensure it is empty
 
