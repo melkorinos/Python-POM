@@ -1,8 +1,8 @@
 # Python Pom model
-This projects is a sample test suite following the POM model. Using Python, Selenium Webdriver, Python unittest and HTMLTestRunner ( TODO)
+This projects is a sample test suite following the POM model. Using Python, Selenium Webdriver, Python unittest and (TOD : HTMLTestRunner)
  
 ## Introduction
-The following base components can be indetified 
+The following test suite components can be indetified.
 - Locators : All web element locators
 - Page Objects : All site pages
 - Tests : All tests
