@@ -6,6 +6,7 @@ class SearchResultsPage(object):
     #Initialize the new page object instance with elements
     def __init__(self, driver):
         self.driver = driver
+        #The element that states the amount of results on the top right
         self.result_summary = driver.find_element(*SearchResultsPageLocators.RESULT_SUMMARY)
         
         

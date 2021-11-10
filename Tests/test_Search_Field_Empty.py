@@ -2,12 +2,13 @@ import sys
 sys.path.append(sys.path[0] + "/..")
 from WebDriverSetup import WebDriverSetup
 from Pages.LandingPage import LandingPage
-from selenium import webdriver
 import unittest
 
 class test_Search_Field_Empty(WebDriverSetup):
     
+    #Ensure the search field is empty
     def test_Search_Field_is_Empty(self):
+        #Driver initialization
         driver = self.driver
         self.driver.get('http://automationpractice.com/index.php')
         self.driver.set_page_load_timeout(30)
