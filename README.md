@@ -17,10 +17,10 @@ The suite runs two scenarios :
 
 **Scenario #1 :** The search box is initialized with no text   
 **Expected result :** The search field is empty when the user selects it
-**Test Steps :** Select the text box -> Get the web element's text attribute -> Ensure text property does not contain any characters
+**Test Steps :** Select the text box -> Get the web element's text attribute -> Ensure text property does not contain any characters  
 
 **Scenario #2 :** Ensure the search functionality functions  
-**Expected result :** When the user enters texts and submits it the website navigates him to the results page
+**Expected result :** When the user enters texts and submits it the website navigates him to the results page  
 **Test Steps :** Select the text box -> Enter a search term -> Press the submit search button -> Locate the web element that states that sum of results -> Ensure it's text attribute contains the string "results". 
 
 
