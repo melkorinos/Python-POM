@@ -16,7 +16,7 @@ To launch run TestRunner.py
 The suite runs two scenarios :
 
 **Scenario #1 :** The search box is initialized with no text   
-**Expected result :** The search field is empty when the user selects it
+**Expected result :** The search field is empty when the user selects it  
 **Test Steps :** Select the text box -> Get the web element's text attribute -> Ensure text property does not contain any characters  
 
 **Scenario #2 :** Ensure the search functionality functions  
