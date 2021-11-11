@@ -9,7 +9,7 @@ The following test suite components can be indetified.
 - WebDriverSetup : Basic driver initialization, setup and teardown
 - TestRunner : Test runner and reporter
 
-The suite tests the website http://automationpractice.com/index.php and performs two sample tests.
+The suite tests the website http://automationpractice.com/index.php and performs two sample tests.  
 To launch run TestRunner.py
 
 ## Scenarios
