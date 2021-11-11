@@ -19,10 +19,7 @@ The suite runs two scenarios :
 **Expected result :** The search field is empty when the user selects it
 **Test Steps :** Select the text box -> Get the web element's text attribute -> Ensure text property does not contain any characters
 
-2) Ensure the search functionality works  
-STEPS : Select the text box -> Enter a search term -> Press the search button -> Ensure we land on the results page
-
-**Scenario #1 :** Ensure the search functionality functions  
+**Scenario #2 :** Ensure the search functionality functions  
 **Expected result :** When the user enters texts and submits it the website navigates him to the results page
 **Test Steps :** Select the text box -> Enter a search term -> Press the submit search button -> Locate the web element that states that sum of results -> Ensure it's text attribute contains the string "results". 
 
