@@ -6,7 +6,7 @@ The following test suite components can be indetified.
 - Locators : All web element locators per page
 - Page Objects : All site pages
 - Tests : All test cases per page object
-- WebDriverSetup : Basic driver initialization, setup and teardown
+- WebDriverSetup : Basic driver initialization, setup and teardown, lambatest capabilities.
 - TestRunner : Test runner and reporter
 
 The suite tests the website http://automationpractice.com/index.php and performs two sample tests.  
