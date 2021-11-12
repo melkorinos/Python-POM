@@ -19,6 +19,7 @@ if __name__ == "__main__":
         test_loader.loadTestsFromTestCase(test_Search_Field_Works),
         ))
     
+    #Run the tests and produce one report for them
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(combine_reports=True))
         
 
