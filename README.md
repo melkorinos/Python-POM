@@ -1,5 +1,5 @@
 # Python Pom model
-This projects is a sample test suite following the POM model. Using Python, Selenium Webdriver, Python unittest and HTMLTestRunner for report generation
+This projects is a sample test suite following the POM model. Using Python, Selenium Webdriver, Python unittest,HTMLTestRunner for report generation and LambdaTest.com for test execution.
  
 ## Introduction
 The following test suite components can be indetified.
