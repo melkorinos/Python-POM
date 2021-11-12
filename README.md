@@ -1,5 +1,5 @@
 # Python Pom model
-This projects is a sample test suite following the POM model. Using Python, Selenium Webdriver, Python unittest and (TOD : HTMLTestRunner for report generation)
+This projects is a sample test suite following the POM model. Using Python, Selenium Webdriver, Python unittest and HTMLTestRunner for report generation
  
 ## Introduction
 The following test suite components can be indetified.
@@ -10,7 +10,7 @@ The following test suite components can be indetified.
 - TestRunner : Test runner and reporter
 
 The suite tests the website http://automationpractice.com/index.php and performs two sample tests.  
-To launch run TestRunner.py
+To launch run TestRunner.py, after installing ```pip install html-testRunner``` & ```pip install selenium```
 
 ## Scenarios
 The suite runs two scenarios :
