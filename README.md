@@ -10,7 +10,7 @@ The following test suite components can be indetified.
 - TestRunner : Test runner and reporter
 
 The suite tests the website http://automationpractice.com/index.php and performs two sample tests.  
-To launch run TestRunner.py, after installing ```pip install html-testRunner``` & ```pip install selenium```
+To launch run ```TestRunner.py```, after installing ```pip install html-testRunner``` & ```pip install selenium```
 
 ## Scenarios
 The suite runs two scenarios :
