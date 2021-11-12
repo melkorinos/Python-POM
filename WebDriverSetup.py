@@ -10,7 +10,7 @@ class WebDriverSetup(unittest.TestCase):
     @classmethod
     def setUp (self):
         #cloud based testing on Lambda test
-        self.driver = webdriver.Remote(command_executor = 'https://melkorinos:xZ5M4PjFxtLBvLXaaNo3AKbT56YdXYE1PbyilYrUfJYCcUg6wx@hub.lambdatest.com/wd/hub',
+        self.driver = webdriver.Remote(command_executor = SECRET,
                                        desired_capabilities=capabilities)
         self.driver.implicitly_wait(5)
     
