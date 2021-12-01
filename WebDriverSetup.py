@@ -9,6 +9,8 @@ class WebDriverSetup(unittest.TestCase):
     #Before every test start a new driver instance
     @classmethod
     def setUp (self):
+        #local testing
+        self.driver = webdriver.Chrome()
         #cloud based testing on Lambda test
         self.driver = webdriver.Remote(command_executor = SECRET,
                                        desired_capabilities=capabilities)

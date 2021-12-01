@@ -15,7 +15,7 @@ class LandingPage(object):
         return self.search_box
  
     def getSubmitSeatchButton(self):
-        return self.ubmit_search  
+        return self.submit_search  
     
     
 
